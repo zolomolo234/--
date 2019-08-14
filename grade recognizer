@@ -1,0 +1,17 @@
+py=int(input("enter marks in python:"))
+en=int(input("enter marks in english:"))
+bi=int(input("enter marks in bio:"))
+m=int(input("enter marks in math:"))
+c=int(input("enter marks in chem:"))
+t=py+en+bi+m+c
+per=(t/500)*100
+if per>75:
+print("you got O grade")
+elif per>60:
+print("you got A grade")
+elif per>45:
+print ("you got B grade")
+elif per>35:
+print ("you got C grade")
+else 
+print("you are fail")
